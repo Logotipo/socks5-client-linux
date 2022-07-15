@@ -64,7 +64,8 @@ namespace Socks5
         uint8_t	byteAuthMethod;
     };
 
-    struct AuthUPRespondtHeader {
+    struct AuthUPRespondtHeader
+    {
         uint8_t byteVersion;
         uint8_t byteRespondCode;
     };
